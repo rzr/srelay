@@ -59,10 +59,10 @@ int same_interface = 0;
 #ifdef HAVE_LIBWRAP
 int use_tcpwrap = 0;
 # include <tcpd.h>
-# if defined(LINUX) || defined(SOLARIS)
+# if defined(__linux__) || defined(SOLARIS)
 int    allow_severity = LOG_AUTH|LOG_INFO;
 int    deny_severity  = LOG_AUTH|LOG_NOTICE;
-# endif /* LINUX */
+# endif /* __linux__ */
 extern int hosts_ctl __P((char *, char *, char *, char *));
 #endif /* HAVE_LIBWRAP */
 

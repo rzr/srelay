@@ -46,12 +46,12 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #endif /* defined(FREEBSD) || defined(SOLARIS) || defined(MACOSX) */
 
-#if defined(LINUX)
+#if defined(__linux__)
 #include <asm/types.h>
 #include <linux/netlink.h>
 #include <linux/rtnetlink.h>
 #include <linux/version.h> 
-#if LINUX_VERSION_CODE >= KERNEL_VERSION(2,6,19) 
+#if __linux___VERSION_CODE >= KERNEL_VERSION(2,6,19) 
 # include <linux/if_addr.h> 
 #endif 
 #ifndef IFA_RTA 
@@ -64,7 +64,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #endif 
 
 static int get_ifconf(int, struct addrinfo *);
-#endif /* defined(LINUX) */
+#endif /* defined(__linux__) */
 
 #if defined(FREEBSD) || defined(SOLARIS) || defined(MACOSX) 
 
@@ -308,7 +308,7 @@ int get_bind_addr(bin_addr *dest, struct addrinfo *ba)
 
 #endif /* defined(FREEBSD) || defined(SOLARIS) || defined(MACOSX) */
 
-#if defined(LINUX)
+#if defined(__linux__)
 
 int get_bind_addr(bin_addr *dest, struct addrinfo *ba)
 {
@@ -542,4 +542,4 @@ int get_ifconf(int index, struct addrinfo *ba)
   return(-1);
 }
 
-#endif /* defined(LINUX) */
+#endif /* defined(__linux__) */
