@@ -2,4 +2,4 @@ srelay (0.0.0-1) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
- -- Philippe Coval <rzr@gna.org>  Sun, 19 Jan 2014 19:53:59 +0100
+ -- Philippe Coval <rzr@gna.org>  Sun, 19 Jan 2014 20:40:02 +0100
