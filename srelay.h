@@ -66,7 +66,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #endif
 
 #ifdef LINUX
-#include <asm-generic/ioctls.h>
 #define __USE_XOPEN
 #endif
 

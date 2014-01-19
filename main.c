@@ -33,6 +33,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
 #include <sys/stat.h>
+#ifdef __linux__
+#include <asm-generic/ioctls.h>
+#endif
+
 #include "srelay.h"
 
 /* prototypes */
