@@ -1,3 +1,21 @@
+srelay (0.0.20130627-0~rzr20140505) saucy; urgency=medium
+
+  * wip: http://rzr.online.fr/q/snapshot#srelay
+
+ -- Philippe Coval <rzr@gna.org>  Mon, 05 May 2014 10:53:04 +0200
+
+srelay (0.0.20140505-0~rzr) unstable; urgency=medium
+
+  * WIP: http://rzr.online.fr/q/snapshot#srelay
+
+ -- Philippe Coval <rzr@gna.org>  Mon, 05 May 2014 10:53:01 +0200
+
+srelay (0.0.0-0) UNRELEASED; urgency=medium
+
+  * wip: http://rzr.online.fr/q/snapshot#srelay
+
+ -- Philippe Coval <rzr@gna.org>  Mon, 05 May 2014 10:53:01 +0200
+
 srelay (0.0.0-1) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
